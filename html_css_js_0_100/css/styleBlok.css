@@ -1,0 +1,73 @@
+.king-blok {
+  font-size: 18px;
+  margin: 50px 50px;
+  box-shadow: 5px 3px 2px #aaa;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text-blok1 {
+  margin-bottom: 30px;
+}
+.text-blok2 {
+  margin-bottom: 30px;
+}
+.text-blok3 {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+.text-blok4 {
+  margin-bottom: 30px;
+}
+.text-blok4::first-line {
+  color: red;
+}
+.text-blok5 {
+  margin-bottom: 30px;
+}
+.ul1 {
+  font-size: 22px;
+}
+.ul1 > li::before,
+.ul2 > li::before {
+  content: "+";
+  width: 25px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.ul1 > li:nth-child(1) {
+  text-decoration: line-through;
+}
+.ul1 > li:nth-child(2) {
+  font-weight: bold;
+}
+.ul1 > li:nth-child(3) {
+  font-style: italic;
+}
+.ul1 > li:nth-child(4) {
+  text-transform: uppercase;
+}
+.ul2 {
+  font-size: 22px;
+}
+.ul2 > li:hover {
+  color: red;
+}
+.animation-button {
+  background-color: #eee;
+  border-radius: 45px;
+  box-shadow: 7px 5px 5px grey;
+  width: 360px;
+  height: 70px;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.animation-button:hover {
+  background-color: rgb(83, 67, 67);
+  color: white;
+  transition: 0.7s;
+}
+.animation-button:active {
+  background-color: darkgray;
+}
